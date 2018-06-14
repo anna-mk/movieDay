@@ -10,13 +10,13 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CinemaSession implements Serializable {
+public class MovieSessionDto implements Serializable {
 
+    private Long id;
+    private Long cinemaId;
     private String name;
+    private Integer ticketPrice;
     private String hall;
     private Date date;
-    private String language;
-    private String dimension;
-    private  Integer ticketPrice;
 
 }

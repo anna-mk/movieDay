@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @NoArgsConstructor
-public class MovieInfo implements Serializable {
+public class MovieInfoDto implements Serializable {
 
     private Long id;
     private String name;

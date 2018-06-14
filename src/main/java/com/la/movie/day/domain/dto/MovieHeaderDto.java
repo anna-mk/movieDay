@@ -9,13 +9,11 @@ import java.io.Serializable;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CinemaList implements Serializable {
+public class MovieHeaderDto implements Serializable {
 
     private Long id;
     private String name;
-    private String address;
-    private String phone;
-    private String site_url;
-    private String openClosed;
-
+    private String poster_url;
+    private String genre;
+    private String nowUpcoming;
 }
